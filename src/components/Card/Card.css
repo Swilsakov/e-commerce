@@ -1,0 +1,85 @@
+/* .card {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  width: 271px;
+  height: 403px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+  transition: all .13s ease;
+}
+
+.card__like {
+  text-align: right;
+  padding: 5px 10px 0;
+}
+
+.card__image {
+  width: 250px;
+  height: 190px;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F3035;
+  margin-bottom: 25px;
+}
+
+.card__price {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2F3035;
+}
+
+.card__cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1C62CD;
+  border-radius: 10px 0px 0px 0px;
+} 
+
+.show__product {
+  width: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  display: inline-block;
+  background: #ffffff;
+  padding: 18px 22px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 3p;
+  transition: all .13s ease;
+  cursor: pointer;
+}*/
+.card {
+  transition: all 0.2s;
+}
+
+.show__product {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.card:hover .show__product {
+  transition: all 0.5s ease;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.card:hover {
+  box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}

@@ -1,0 +1,21 @@
+.filter {
+  margin-top: 25px;
+  margin-bottom: 80px;
+  height: 53px;
+  background: #F0F0F4;
+}
+
+.filter__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+.filter__item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2F3035;
+  text-transform: capitalize;
+}
